@@ -10,5 +10,6 @@ public interface PersonServices {
     public Person updatePerson(Person person);
     public void deletePerson (int id);
     public List<Person> getAllPersons();
+    public List<Person> findAllPeople();
     
 }

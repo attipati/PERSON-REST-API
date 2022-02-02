@@ -9,6 +9,16 @@
             "mainClass": "com.dxc.personrestapi.PersonRestApiApplication",
             "projectName": "person-rest-api",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PersonRestApiApplication<demo-app1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.dxc.personrestapi.PersonRestApiApplication",
+            "projectName": "demo-app1",
+            "args": ""
         }
     ]
 }

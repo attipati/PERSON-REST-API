@@ -51,7 +51,7 @@ public class PersonController {
     }
     @DeleteMapping("/person/{id}")
     public void deletePerson(@PathVariable int id){
-        personService.delePerson(id);
+        personService.deletePerson(id);
     }
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(MethodArgumentNotValidException.class)

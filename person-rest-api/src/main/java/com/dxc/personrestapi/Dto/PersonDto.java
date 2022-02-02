@@ -25,6 +25,4 @@ public class PersonDto {
     @NotBlank(message="email is mandatory")
     private String email;
 
-
-    
 }

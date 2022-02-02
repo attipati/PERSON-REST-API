@@ -37,5 +37,10 @@ public class PersonServiceImpl  implements PersonServices{
         // TODO Auto-generated method stub
         return null;
     }
+    @Override
+    public List<Person> findAllPeople() {
+        // TODO Auto-generated method stub
+        return null;
+    }
     
 }
